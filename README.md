@@ -6,7 +6,7 @@ SPI Display Tontec MZ61581 , tested with an ESP32 DevKitC V4 and Arduino IDE 2.1
   - Touch controller XPT2046
   - Altera EPM3032A
 
-Display works fine with [TFT_eSPI 2.5.31](#espi) and [LVGL 8.3.10](#lvgl)
+Display works fine with [TFT_eSPI 2.5.31](#espi) and LVGL 8.3.10
 
 Speed (SPI 40MHz) : Bouncy_Circles 32fps, boing_ball 105fps, Sprite_Rotating 150fps, LVGL 33fps
 
