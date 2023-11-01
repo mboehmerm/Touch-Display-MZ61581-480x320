@@ -1,0 +1,5 @@
+
+TFT-eSPI updated? Copy this file to libraries\TFT_eSPI :
+
+  User_Setup_Select.h
+
