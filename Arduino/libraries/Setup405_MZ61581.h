@@ -39,11 +39,12 @@
 
 #define SMOOTH_FONT
 
-//#define SPI_FREQUENCY      20000000
-//#define SPI_FREQUENCY      27000000  // ok
-#define SPI_FREQUENCY        40000000  // ok with short cables
-//#define SPI_FREQUENCY      80000000  // white screen
+//#define SPI_FREQUENCY     20000000
+//#define SPI_FREQUENCY     27000000  // ok
+//#define SPI_FREQUENCY     40000000  // ok with short cables
+//#define SPI_FREQUENCY     80000000  // ok with 5 ohm resistor between ESP32-GND and MZ61581-GND (~0.47V). Display draws ~72mA.
 
-#define SPI_TOUCH_FREQUENCY 2500000
+#define SPI_FREQUENCY       27000000
+#define SPI_TOUCH_FREQUENCY  2500000
 
 // #define SUPPORT_TRANSACTIONS
