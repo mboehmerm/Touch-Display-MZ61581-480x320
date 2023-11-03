@@ -42,6 +42,14 @@ Connections :
 With longer cables (15cm), only 27MHz were stable.
 ![Pinout MZ61581](pictures/MZ61581_CPU.jpg)
 
+Many examples of the TFT_eSPI library are working fine except "TFT_ReadWrite_Test.ino" :
+````
+ Pixel value written = 800
+ Pixel value read    = FFFF
+ ERROR                 ^^^^
+````
+Same problem as with the similar ili9488 controller ?
+
 ## Quick installation
 - Arduino :
   - Install the libraries "TFT_eSPI" and "lvgl".
