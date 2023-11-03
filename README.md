@@ -1,5 +1,5 @@
 # Raspberry Touch Display MZ61581 3.5" 480x320 XPT2046
-SPI Display Tontec MZ61581 , tested with an ESP32 DevKitC V4 and Arduino IDE 2.1.1
+SPI Display Tontec MZ61581 , tested with an ESP32 DevKitC V4 and Arduino IDE 2.1.1 ( or PlatformIO ![PlatformIO](pictures/PIO25.jpg) )
 
 - Display Tontec MZ61581-PI-EXT 2015.5.28
   - Display controller R61581
