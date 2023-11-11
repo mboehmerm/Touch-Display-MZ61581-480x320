@@ -8,7 +8,7 @@ SPI Display Tontec MZ61581 , tested with an ESP32 DevKitC V4 and Arduino IDE 2.1
 
 Display works fine with [TFT_eSPI 2.5.31](#espi) and LVGL 8.3.10
 
-The display works stable with 27MHz. 40MHz requires short cables. 80MHz works with a 10 ohm resistor between ESP32-GND and MZ61581-GND, which increases the GND voltage of the display to 0.47V. Display draws about 72mA.
+The display works stable with 27MHz. 40MHz requires short cables. 80MHz works with a 10 ohm resistor (or a Schottky Diode) between ESP32-GND and MZ61581-GND, which increases the GND voltage of the display to 0.47V (0.3V). The display draws about 72mA. At the moment i use a 1N5819 Schottky diode. With a 1N4148 diode the backlight is not bright enough.
 
 Speed (27MHz/40MHz/80MHz) : Bouncy_Circles 22/32/64fps, boing_ball 83/105/140fps, Sprite_Rotating 100/150/300fps.
 
